@@ -1,0 +1,128 @@
+@media only screen and (max-width:1808px) {
+    img.stone {
+        margin: -36px 0px;
+    }
+
+    img.girlandboy {
+        position: absolute;
+        top: 56%;
+        width: 58%;
+        left: 21%;
+    }
+
+    .resources-content {
+        margin: 8% 15%;
+    }
+
+    .resources-content .hiking-girl-bg {
+        top: 423%;
+    }
+
+
+
+    .about-section-4 .about-4-img img {
+        width: 60%;
+        margin-top: 8%;
+    }
+
+    .footer-text .footer-icon img {
+        position: relative;
+        left: 268%;
+        top: -46px;
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (max-width:1600px) {
+    .home-main-text h1 {
+        font-size: 50px;
+    }
+
+    img.stone {
+        margin: 11px 0px;
+    }
+
+    .text-block-1 {
+        right: 17%;
+    }
+
+    img.girlandboy {
+        top: 62%;
+        width: 58%;
+        left: 22%;
+    }
+
+    .yeww h1 {
+
+        margin: 0 81px;
+    }
+
+    .about-card .cards img {
+        width: 362px;
+        height: 339px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .text-block-1 {
+        right: 13%;
+    }
+
+    .yeww h1 {
+        margin: 0 155px;
+    }
+
+    .resources-content .hiking-girl-bg {
+        top: 394%;
+    }
+
+    .main-about-section-3 {
+        height: 126vh;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    .home-main-text h6 {
+        width: 71%;
+    }
+
+    .adventure-section .adventure-img-logo img {
+        right: 36%;
+    }
+
+    .yeww h1 {
+        margin: 0 -23px;
+    }
+
+    .about-section-3 {
+        height: 97%;
+    }
+
+    .about-card .cards img {
+        width: 341px;
+        height: 322px;
+    }
+
+    .button_contact {
+        margin: 0px 185px;
+    }
+
+    .footer-text .footer-icon img {
+        left: 204%;
+        top: -42px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1280px) {
+    .text-block-1 {
+        right: 11%;
+    }
+}

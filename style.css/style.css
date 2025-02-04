@@ -1,0 +1,842 @@
+@import url(https://db.onlinewebfonts.com/c/d1a580023d40c546276decde1c711e60?family=SuisseIntl-Bold);
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+.main-section {
+    position: relative;
+    overflow: hidden;
+    /* Prevent overflow from scaling */
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.main-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/bg.jpg');
+    /* Your background image */
+    background-size: cover;
+    /* Cover the entire section */
+    background-position: center;
+    transform: scale(var(--zoom-scale));
+    /* Use CSS variable for scaling */
+    transition: transform 0.5s ease-in-out;
+    /* Smooth transition for zoom effect */
+    /* Smooth transition for zoom effect */
+    z-index: -1;
+    /* Keep it behind the content */
+}
+
+.main-section::before {
+    transform: scale(var(--zoom-scale));
+    /* Use CSS variable for scaling */
+    transition: transform 0.8s ease;
+    /* Smooth transition for scaling */
+}
+
+/* navbar CSS */
+.navbar-logo img {
+    height: 74px;
+    width: 74px;
+}
+
+.navbar-brand {
+    font-size: 60px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+/* ENd navbar section */
+
+
+/* Home CSS */
+.home-section {
+    margin: 5% 0px;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.home-main-text h1 {
+    position: static;
+    width: 4%;
+    font-family: "SuisseIntl-Bold";
+    font-size: 55px;
+    color: white;
+
+}
+
+.home-main-text h6 {
+    position: static;
+    width: 61%;
+    font-family: "SuisseIntl";
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.home-section .home-img {
+    width: 100%;
+}
+
+.home-main-text-1 {
+    font-weight: 400;
+    font-family: "SuisseIntl";
+    display: block;
+    margin-top: 61px;
+    color: white;
+
+}
+
+.home-main-text-1 h2 {
+    display: flex;
+    font-size: 2.5rem;
+    margin-bottom: -5px;
+}
+
+.home-main-text-1 .text-block {
+    font-size: 50px;
+    font-family: "SuisseIntl-Bold";
+    display: block;
+    width: 20%;
+    display: flex;
+}
+
+.text-block-1 {
+    margin: -60px 0px;
+    position: absolute;
+    right: 21%;
+}
+
+.text-block {
+    margin: 0px 1px;
+}
+
+p.text-block-p-1 {
+    margin-bottom: -1.5rem;
+}
+
+.text-block-p {
+    margin-bottom: -1.6rem;
+    display: flex;
+}
+
+.text-block-p-2 {
+    display: flex;
+    font-family: "SuisseIntlmono";
+    font-size: 14px;
+    font-style: normal;
+    line-height: 29px;
+    Color:
+        rgb(155, 207, 238);
+    letter-spacing: 3px;
+}
+
+
+.home-btn {
+    display: block;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    height: 40px;
+    /* font-size: 0.7rem; */
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg, #1c1c1c, #6220fb);
+    border: 0 solid;
+    overflow: hidden;
+    width: 66%;
+    height: 5vh;
+    margin-top: 20px;
+}
+
+
+.home-btn:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+img.stone {
+    margin: 50px 0px;
+}
+
+img.girlandboy {
+    position: absolute;
+    top: 56%;
+    width: 62%;
+    left: 19%;
+}
+
+
+/* End Home Section CSS */
+
+/* About Section */
+
+.main-about-section-1 {
+    background-color: #1E0F21;
+    height: 80vh;
+}
+
+.about-section-1 .contain-1 {
+    margin-top: 10%;
+}
+
+.about-text-num {
+    color: white;
+    margin: 20px 0px;
+}
+
+.about-section-1 .about-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 58px;
+    width: 90%;
+    font-family: sans-serif;
+    color: white;
+}
+
+.about-text-1 {
+    color: #78707A;
+    margin: 72px 0px;
+}
+
+.about-section-1 .about-text-1 h6 {
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+.about-section-1 .about-text-1 a {
+    text-decoration: underline;
+    line-height: 8.5;
+    color: #45F6F3;
+    font-size: 18px;
+}
+
+.about-section-1 .about-text-1 a:hover {
+    text-decoration: none;
+}
+
+
+
+/* about section 2  */
+
+.about-section-2 .about-img {
+    height: auto;
+    min-height: 84vw;
+    background-image: url(/images/deer.jpg) !important;
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+
+.about-section-2 .about-img-logo img {
+    height: 16vh;
+    position: relative;
+    margin-top: -76px;
+    z-index: 1;
+    opacity: 0.7;
+    overflow: auto;
+    transition: transform 0.5s ease;
+    /* smooth transition ke liye */
+}
+
+
+.about-section-2 .contain {
+    width: 30%;
+}
+
+.about-section-2 .contain .about-text {
+    margin: 30px 0px;
+}
+
+.about-section-2 .contain .about-text h1 {
+    margin: 50px 0px;
+}
+
+.about-section-2 .contain .about-text h5 {
+    font-family: "Suisseintl";
+    line-height: 1.5;
+    font-size: 22px;
+
+}
+
+/* Adventure Section CSS */
+.main-adventure-section {
+    height: 181vh;
+    background-color: #1E0F21;
+}
+
+.adventure-section .container {
+    padding-top: 100px;
+}
+
+.adventure-section .adventure-title {
+    color: #78707A;
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+.adventure-section .adventure-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: sans-serif;
+    width: 95%;
+    color: white;
+
+
+}
+
+.adventure-heading .adventure-head {
+    margin-top: 20px;
+    font-size: 42px;
+    line-height: 1.5;
+    font-weight: 800;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #78707A;
+}
+
+.adventure-content-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #78707A;
+}
+
+.adventure-section .adventure-img-logo img {
+    height: 30vh;
+    right: 45%;
+    position: absolute;
+
+}
+
+.adventure-section .adventure-img-logo .logo-img {
+    height: 23vh;
+    margin: 42px 34px;
+    opacity: 0.9;
+
+    transition: transform 0.8s ease;
+    /* Smooth transition for 0.5 seconds */
+
+
+}
+
+.adventure-heading .signature {
+    height: 12vh;
+    margin-top: 30%;
+}
+
+.adventure-headings .col-8 {
+    width: 62.666667%;
+}
+
+.yeww h1 {
+    float: right;
+    color: #291c2c;
+    font-size: 11vw;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+/* END Adventure Section CSS */
+
+
+
+
+/* Reources Section CSS */
+/* resource content */
+.resources-content {
+    margin: 15%;
+}
+
+
+.resources-content .tab-content {
+    margin: 0px -104px;
+    width: 110%;
+    color: #413543;
+
+}
+
+
+.resources-content .tab-content h1 {
+    font-size: 60px;
+}
+
+.resources-content .tab-content p {
+    font-size: 20px;
+    width: 80%;
+}
+
+/* resource heading */
+
+.resource-heading .tab-menu {
+    float: right;
+    margin-top: 20%;
+
+}
+
+/* .resource-heading .tab-menu  */
+.tab-btn {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    color: #1D6C77;
+    text-decoration: none;
+    background-color: transparent;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+
+.tab-btn.active {
+    color: #45F6F3;
+
+}
+
+.resource-heading .tab-menu a :hover {
+    cursor: pointer;
+    z-index: 2;
+}
+
+.resource-heading .tab-menu a h2 {
+    font-size: 40px;
+    line-height: 1.7;
+
+}
+
+.resource-heading .tab-menu a i {
+    margin: 22px 10px;
+}
+
+.tab-content .tab-pane {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.tab-content .tab-pane.active h1 {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards, blurIn 1s ease forwards;
+    animation-delay: 0.3s;
+
+}
+
+
+.tab-content .tab-pane.active p {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+    animation-delay: 1s;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes blurIn {
+    0% {
+        filter: blur(4px);
+    }
+
+    100% {
+        filter: blur(0);
+    }
+}
+
+.tab-menu .active-tab {
+    color: #45F6F3;
+    font-weight: bold;
+
+
+
+}
+
+.resources-content .hiking-cloud-img {
+    position: absolute;
+    left: 0%;
+    top: 450%;
+}
+
+.resources-content .hiking-girl-bg {
+    position: absolute;
+    right: 20%;
+    top: 420%;
+
+
+}
+
+
+/* About Section 3 CSS */
+.main-about-section-3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#mainImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+    /* Smooth transition */
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    /* Improve performance */
+}
+
+.about-section-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Transparent overlay */
+    color: #fff;
+    /* Text color to stand out on the image */
+    z-index: 1;
+    /* Bring content above the image */
+}
+
+.about-text {
+    z-index: 2;
+}
+
+.about-card {
+    margin-top: 20px;
+}
+
+.about-section-3 .about-text h6 {
+    margin: 50px 0px;
+}
+
+.about-section-3 .about-text .about {
+    width: 30%;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 25px 0px;
+}
+
+
+
+
+/* About Card */
+.about-card {
+    margin-top: 50px;
+}
+
+.about-card .cards img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-card .card-button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    color: #98719c;
+}
+
+.about-card .card-button:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+p.text-title {
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+
+
+/* About section 4 */
+
+.main-about-section-4 {
+    background-color: #1E0F21;
+    height: 100vh;
+}
+
+.about-section-4 .about-4-img img {
+    width: 60%;
+    margin-top: 10%;
+}
+
+.about-section-4 .about-4-title h6 {
+    margin: 50px 0px;
+}
+
+.about-section-4 .about-4-title {
+    color: white;
+
+}
+
+.about-section-4 .about-4-para {
+    color: #78707A;
+    padding-top: 120px;
+    width: 90%;
+    font-size: 18px;
+}
+
+
+/* Team CSS */
+
+
+.hover-section {
+    position: relative;
+    overflow: hidden;
+    cursor: none;
+    /* Remove cursor when hovering over this section */
+}
+
+.hover-section #hoverLogo {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    /* Add shadow effect */
+}
+
+#hoverLogo {
+    position: absolute;
+    width: 50px;
+    /* Set logo size */
+    height: auto;
+    transform: translate(-50%, -50%) scale(0);
+    /* Start hidden and scaled down */
+    transition: transform 0.8s ease, opacity 0.3s ease;
+    /* Smooth movement */
+    opacity: 0;
+    /* Hide the logo initially */
+}
+
+
+.team-section img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+}
+
+
+.team-section .team-title h2 {
+    position: absolute;
+    left: 38%;
+    top: 799%;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: monospace;
+}
+
+
+/* Contain Section CSS */
+.main-contain-section {
+    height: 110vh;
+    background-color: #1E0F21;
+    color: #4a3f4d;
+    padding-top: 50px;
+}
+
+.main-contain-section .title h1 {
+    font-size: 11vw;
+    line-height: 1em;
+    font-weight: bold;
+    display: inline;
+}
+
+.main-contain-section .invoice-img {
+    display: inline;
+    width: 30%;
+    color: hsla(0, 0%, 100%, 0);
+}
+
+
+/* Contact CSS Section */
+.main-contact-section {
+    background-color: #1E0F21;
+    color: white;
+    height: 80vh;
+
+}
+
+.main-contact-section .contact-title h1 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.main-contact-section .contact-title h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: grey;
+
+}
+
+.main-contact-section .contact-para {
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #5c495f;
+
+}
+
+.main-contact-section .contact-para span {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.main-contact-section .contact-para span:hover {
+    text-decoration: none;
+}
+
+.main-contact-section .contact-button {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.button_contact {
+    margin: 0px 231px;
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid white;
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+    color: white;
+    box-shadow: inset 0 0 10px #4A3F4D, 0 0 9px 3px #4A3F4D;
+}
+
+.button_contact:hover {
+    color: white;
+    box-shadow: inset 0 0 10px #4A3F4D, 0 0 9px 3px #4A3F4D;
+}
+
+.button_contact:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, #4A3F4D 40%, rgba(27, 253, 156, 0.1) 60%, transparent 100%);
+}
+
+.button_contact:hover:before {
+    transform: translateX(15em);
+}
+
+
+footer {
+    height: 10vh;
+    background-color: #1E0F21;
+
+}
+
+footer .footer-text {
+    color: white;
+    display: flex;
+
+}
+
+footer .footer-text p {
+    margin-bottom: 0px;
+    margin: 0px 20px;
+
+}
+
+footer .footer-text p:hover {
+    margin-bottom: 0px;
+    margin: 0px 20px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.footer-text .footer-icon img {
+    position: relative;
+    left: 268%;
+    top: -46px;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
